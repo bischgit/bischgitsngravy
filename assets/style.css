@@ -117,4 +117,38 @@ img {
     text-align: center;
 }
 
+.contact p {
+    margin: 50px auto;
+    padding-bottom: 20px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+footer {
+    background: var(--primary-color);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
   
+  footer h2 {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  footer a {
+    color: var(--secondary-color);
+  }
+
