@@ -1,0 +1,120 @@
+/* header styles */
+header {
+    padding: 35px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    float: left;
+    size: 20px 20px;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+  
+header nav {
+    margin: 7px 0;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+  
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none
+}
+
+/* hero section styles */
+#hero-img {
+    background-image: url("../assets/images/IMG_5978.jpeg");
+}
+
+.hero {
+    margin: 20px;
+    flex: 1;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    background-color: whitesmoke  
+}
+
+.hero p {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    size: 50px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+    height: 400px;
+}
+
+#hero-txt p {
+    font-size: xx-large;
+}
+
+ /* about me section */
+#bio {
+    margin: 50px auto;
+    padding-bottom: 20px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color: var(--secondary-color);
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    border-color: powderblue;
+}
+
+#bio p {
+    font-size: xx-large;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.work-experience {
+    text-align: center;
+}
+
+  
