@@ -64,7 +64,7 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-img {
+.hero img {
     border-radius: 50%;
     size: 50px;
     border: 1px solid #ddd;
@@ -101,8 +101,8 @@ img {
     border-color: powderblue;
 }
 
-#bio p {
-    font-size: xx-large;
+#about-me #bio p {
+    font-size: auto;
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
@@ -113,19 +113,26 @@ img {
     text-align: center;
 }
 
-.work-experience {
+#project-showcase {
     text-align: center;
 }
 
-.contact p {
+/* portfolio img styles */
+#project-showcase img {
+    float: right;
+    size: 20px;
+}
+
+
+#contact p {
     margin: 50px auto;
     padding-bottom: 20px;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
     text-align: center;
+    text-decoration: none;
 }
 
 footer {
@@ -152,3 +159,9 @@ footer {
     color: var(--secondary-color);
   }
 
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
